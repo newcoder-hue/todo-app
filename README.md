@@ -9,4 +9,4 @@ A simple todo web application built with html , css and javascript
 #installation
 1. clone the repository
 
-   git clone
+   git clone  https://github.com/newcoder-hue/todo-app.git
