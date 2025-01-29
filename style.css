@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: serif;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.leftSec {
+    width: 20%;
+    height: 100vh;
+    background-color: rgb(230, 230, 230);
+    padding: 0.5rem;
+}
+
+.leftSec h5 {
+    padding: 0.5rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    margin-top: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+.rightSec {
+    width: 80%;
+    height: 100vh;
+    background-color: rgb(246, 246, 246);
+    padding: 1rem;
+
+}
+
+.todohead-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo-form {
+    width: 60%;
+    margin: 1.5rem;
+}
+
+.todo-form form {
+    width: 100%;
+
+}
+
+.todo-form textarea {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.todo-form form input {
+    padding: 1rem;
+    margin: 1rem 0;
+    width: 100%;
+}
+
+.submitBtn {
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    outline: none;
+}
+
+.deleteBtn{
+    padding: 0.3rem 1rem;
+    border-radius: 0.5rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.todo-container {
+    width: 95%;
+    height: 300px;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    /* border: 1px solid red; */
+    margin: 1.5rem;
+
+}
+
+.todo-container::-webkit-scrollbar {
+    display: none;
+}
+
+.todo{
+    width: 150px;
+    height: 150px;
+    padding: 0.3rem 0.5rem;
+    border: 1px solid green;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.notodohere{
+    color: orange;
+    font-size: 3rem;
+    margin: auto;
+}
